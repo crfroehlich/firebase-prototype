@@ -1,2 +1,1 @@
-# think-water
-The code behind the ThinkWater website
+# ThinkWater2

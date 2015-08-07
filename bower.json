@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    
+  },
+  "devDependencies": {},
+  "main": [
+    "dist/ThinkWater.js"
+  ],
+  "name": "ThinkWater"
+}

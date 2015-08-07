@@ -1,0 +1,53 @@
+{
+  "firebase": "popping-fire-897",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "bower.json",
+    "package.json",
+    ".gitignore",
+    "Gulpfile.js",
+    "README.md",
+    "**/.*",
+    "**/node_modules/**",
+    "bin/**",
+    "obj/**",
+    ".vs/**",
+    "*.config",
+    "*.tmpl",
+    ".git/**"
+  ],
+  "redirects": [
+    {
+      "source": "/stms",
+      "destination": "/#stms",
+      "type": 301
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
+    },
+    {
+      "source": "**/*.@(jpg|jpeg|gif|png)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=7200"
+        }
+      ]
+    }
+  ]
+}

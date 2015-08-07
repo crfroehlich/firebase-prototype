@@ -1,0 +1,15 @@
+node_modules/
+bower_components/
+bin/
+obj/
+.vs/
+ThinkWater.csproj
+ThinkWater.csproj.user
+ThinkWater.sln
+ThinkWater.v12.suo
+Properties/AssemblyInfo.cs
+Web.Debug.config
+Web.Release.config
+Web.config
+.idea/
+desktop.ini
