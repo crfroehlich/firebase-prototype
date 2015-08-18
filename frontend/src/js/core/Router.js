@@ -1,7 +1,8 @@
 const staticRoutes = {
     'contact': true,
     'home': true,
-    'explore': true
+    'explore': true,
+    'countmein': true
 }
 
 let isHidden = false;

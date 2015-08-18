@@ -25,7 +25,7 @@
                                         <div class="input-group">
                                             
                                             <input type="email" 
-                                                   placeholder="Email..."
+                                                   placeholder="{ data.newsletter['subscribe-text'] || 'Enter your email to subscribe' }"
                                                    style="height: 31px;"
                                                    value="" name="EMAIL" class="form-control" id="mce-EMAIL" />
                                             <span class="input-group-btn">
@@ -106,6 +106,8 @@
         FrontEnd.MetaFire.getData(`${FrontEnd.site}/count-me-in`).then( (data) => {
             try {
                 this.data = data;
+                this.data.newsletter = this.data.newsletter || {};
+                this.data.newsletter['subscribe-text'] = this.data.newsletter['subscribe-text'] || 'Subscribe to our newsletter'; 
                 this.impact = data.impact;
                 this.engage = data.engage;
                 this.engage.options = _.filter(_.sortBy(data.engage.options, 'order'), (opt) => {return opt.archive != true});
