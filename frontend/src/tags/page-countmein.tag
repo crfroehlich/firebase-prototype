@@ -17,7 +17,7 @@
                         <br/>
                         <h3 style="font-size: 35px; font-weight: 700;">{ engage.subtext }</h3>
                         <div id="mc_embed_signup">
-                            <form action="//cabreralabs.us4.list-manage.com/subscribe/post?u=58947385383d323caf9047f39&amp;id=9799d3a7b9" 
+                            <form action="{ data.newsletter['mailchimp-link'] }" 
                                   method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="" target="_blank" novalidate="">
                             <p style="color: #fff;">{ data.newsletter.text }</p>
                                 <div id="mc_embed_signup_scroll">
