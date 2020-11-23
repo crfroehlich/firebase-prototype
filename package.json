@@ -100,7 +100,7 @@
     "gulp-replace": "0.5.4",
     "gulp-run": "1.7.1",
     "gulp-sourcemaps": "1.12.1",
-    "gulp-stripbom": "1.0.4",
+    "gulp-stripbom": "1.0.5",
     "gulp-util": "3.0.8",
     "gulp-watch": "4.3.11",
     "minifyify": "7.3.5",
