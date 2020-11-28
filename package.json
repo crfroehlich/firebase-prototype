@@ -111,7 +111,7 @@
     "riotify": "0.1.2",
     "through2": "2.0.5",
     "tiny-lr": "0.1.7",
-    "vinyl-source-stream": "1.1.0",
+    "vinyl-source-stream": "1.1.2",
     "watchify": "3.11.1",
     "wiredep": "2.2.2",
     "yargs": "3.32.0"
