@@ -117,7 +117,7 @@
     "yargs": "3.32.0"
   },
   "optionalDependencies": {
-    "auth0-js": "^6.5.0",
+    "auth0-js": "^9.0.0",
     "auth0-lock": "^7.7.3",
     "bluebird": "^2.9.34",
     "bootstrap": "^3.3.5",
