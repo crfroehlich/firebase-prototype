@@ -119,7 +119,7 @@
   "optionalDependencies": {
     "auth0-js": "^6.5.0",
     "auth0-lock": "^7.7.3",
-    "bluebird": "^2.9.34",
+    "bluebird": "^3.0.0",
     "bootstrap": "^3.3.5",
     "core-js": "^1.1.0",
     "firebase": "^2.2.9",
