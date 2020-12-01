@@ -72,7 +72,7 @@
   },
   "devDependencies": {
     "babel": "5.8.38",
-    "babelify": "6.4.0",
+    "babelify": "10.0.0",
     "brfs": "1.6.1",
     "browserify": "11.2.0",
     "browserify-shim": "3.8.14",
